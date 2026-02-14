@@ -8,8 +8,10 @@ This repository contains a **Dockerized machine learning project** that trains a
 docker build -t my-ml-app:v1
 
 3)Run the Docker Container
+
 Create the folder to save the model
 mkdir -p working_data
+
 Run the container with the volume mapping
 docker run --rm -v $(pwd)/working_data:/app/working_data my-ml-app:v1
 
