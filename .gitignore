@@ -1,0 +1,5 @@
+# Ignore Docker image tar files
+*.tar
+
+# Ignore trained models
+working_data/
